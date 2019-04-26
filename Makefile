@@ -15,6 +15,7 @@ NAME = libmatric.a
 SRC_NAME =	mat4_create.c \
 			mat4_identity.c \
 			mat4_mult.c \
+			mat4_rotate.c \
 			mat4_scale.c \
 			mat4_translate.c \
 			quaternion_create.c \

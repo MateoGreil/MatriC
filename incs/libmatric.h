@@ -25,6 +25,7 @@
     t_mat4              mat4_identity(void);
     t_mat4              mat4_translate(float x, float y, float z);
     t_mat4              mat4_scale(float scale);
+    t_mat4              mat4_rotate(float x, float y, float z);
     t_mat4              mat4_mult(t_mat4 m1, t_mat4 m2);
     t_mat4              quaternion_to_mat4(t_vec4 quaternion);
 
