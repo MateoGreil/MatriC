@@ -9,11 +9,11 @@ t_mat4  mat4_scale(float scale) {
         j = 0;
         while (j < 4) {
             if (i != j) {
-                matrix.n[i][j] = 0;
+                matrix.n[j][i] = 0;
             } else if (i != 3) {
-                matrix.n[i][j] = scale;
+                matrix.n[j][i] = scale;
             } else {
-                matrix.n[i][j] = 1;
+                matrix.n[j][i] = 1;
             }
             j++;
         }

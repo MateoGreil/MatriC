@@ -9,9 +9,9 @@ t_mat4   mat4_identity(void) {
         j = 0;
         while (j < 4) {
             if (i != j) {
-                matrix.n[i][j] = 0;
+                matrix.n[j][i] = 0;
             } else {
-                matrix.n[i][j] = 1;
+                matrix.n[j][i] = 1;
             }
             j++;
         }
